@@ -4,7 +4,7 @@ import UserProfile from "./components/UserProfile";
 const App = () => {
     return (
         <div>
-            <UserProfile />
+            <UserProfile name="Gabe" favoriteShow="The Big Bang Theory" />
         </div>
     );
 }
