@@ -1,11 +1,10 @@
 import React from "react";
-import UserProfile from "./components/UserProfile";
+import Test from "./components/Test";
 
 const App = () => {
     return (
         <div>
-            <UserProfile name="Gabe" favoriteShow="The Big Bang Theory" admin={true} />
-            <UserProfile name="Brad" favoriteShow="Friends" admin={false}/>
+            <Test />
         </div>
     );
 }
